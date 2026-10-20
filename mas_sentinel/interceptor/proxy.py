@@ -2,8 +2,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 import time
-from mas_sentinel.interceptor.models import InterceptStatus, MessageLog
+
 from mas_sentinel.interceptor.inspector import inspect_message
+from mas_sentinel.interceptor.models import InterceptStatus, MessageLog
 
 
 class MessageInterceptor:

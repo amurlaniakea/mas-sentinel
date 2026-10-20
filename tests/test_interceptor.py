@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2026 Pedro Sordo Martínez <amurlaniakea@gmail.com>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-from mas_sentinel.interceptor.proxy import MessageInterceptor
 from mas_sentinel.interceptor.models import InterceptStatus
+from mas_sentinel.interceptor.proxy import MessageInterceptor
 
 
 def test_benign_message():
