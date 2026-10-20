@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mas-sentinel"
+version = "0.1.0"
+authors = [
+  { name = "Pedro Sordo Martínez", email = "amurlaniakea@gmail.com" },
+]
+description = "Active defense interceptor and policy engine for Multi-Agent Systems (MAS)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
